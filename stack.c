@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "LinkedListAPI.h"
 #include "stack.h"
 
 Stack *createStack(void(*printFunction)(void *toBePrinted), void(*deleteFunction)(void *toBeDelted), int(*compareFunction)(const void *first, const void *second)){
